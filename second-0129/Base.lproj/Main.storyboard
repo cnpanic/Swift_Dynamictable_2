@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Menu ListV Iew Controller-->
         <scene sceneID="4yX-1j-ARZ">
             <objects>
-                <tableViewController id="8JY-IN-G4C" sceneMemberID="viewController">
+                <tableViewController id="8JY-IN-G4C" customClass="MenuListVIewController" customModule="second_0129" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="FD9-fG-nPc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -48,6 +48,9 @@
                             <outlet property="delegate" destination="8JY-IN-G4C" id="QaW-Cc-lZd"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="view" destination="FD9-fG-nPc" id="m3w-Ag-Y3b"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="99q-Qo-aIt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
