@@ -12,6 +12,7 @@
 		B249D788201F006900DDA982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B249D786201F006900DDA982 /* Main.storyboard */; };
 		B249D78A201F006900DDA982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B249D789201F006900DDA982 /* Assets.xcassets */; };
 		B249D78D201F006900DDA982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B249D78B201F006900DDA982 /* LaunchScreen.storyboard */; };
+		B249D797201F06FF00DDA982 /* MenuListVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B249D796201F06FF00DDA982 /* MenuListVIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B249D789201F006900DDA982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B249D78C201F006900DDA982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B249D78E201F006900DDA982 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B249D796201F06FF00DDA982 /* MenuListVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListVIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				B249D782201F006900DDA982 /* AppDelegate.swift */,
 				B249D784201F006900DDA982 /* ViewController.swift */,
 				B249D786201F006900DDA982 /* Main.storyboard */,
+				B249D796201F06FF00DDA982 /* MenuListVIewController.swift */,
 				B249D789201F006900DDA982 /* Assets.xcassets */,
 				B249D78B201F006900DDA982 /* LaunchScreen.storyboard */,
 				B249D78E201F006900DDA982 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				B249D785201F006900DDA982 /* ViewController.swift in Sources */,
 				B249D783201F006900DDA982 /* AppDelegate.swift in Sources */,
+				B249D797201F06FF00DDA982 /* MenuListVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
